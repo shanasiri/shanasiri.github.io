@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment-2</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: white;
+      }
+
+      h1 {
+        margin: 100px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Helvetica;
+        font-size: 175%;
+      }
+
+      section {
+        position: relative;
+        padding: 15px;
+        width: 100%;
+      }
+
+      p {
+        position: relative;
+        clear: right;
+      }
+
+      div {
+        position: relative;
+        background-color: grey;
+        border: 1px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+      }
+
+      .first {
+        color: black;
+        float: right;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: palevioletred;
+      }
+
+      .second {
+        color: white;
+        float: right;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: maroon;
+      }
+
+      .third {
+        color: black;
+        float: right;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: darkorange;
+      }
+
+      .content {
+        padding: 5px;
+        border: none;
+        background-color: grey;
+        font-family: Helvetica;
+        color: black;
+        margin: 0px;
+        height: 200px;
+        overflow: auto;
+      }
+
+      .row {
+        width: 90%;
+      }
+
+      @media (min-width: 992px) {
+        .col-lg-4 {
+          float: left;
+          width: 33.33%;
+        }
+      }
+
+      @media (min-width: 768px) and (max-width: 991px) {
+        .col-md-6 {
+          float: left;
+          width: 50%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .col-md-12 {
+          float: left;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      @media (max-width: 767px) {
+        .col-sm-12 {
+          float: left;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Our Menu</h1>
+    <section class="col-lg-4 col-md-6 col-sm-12">
+      <div>
+        <p class="first">Chicken</p>
+        <p class="content">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
+          numquam dignissimos distinctio. Ad quidem, repellat placeat
+          praesentium sapiente voluptate. Adipisci, tempore! Sint odit ea, eaque
+          ad velit laboriosam. Eveniet adipisci autem nihil. Recusandae sunt
+          minus quaerat magnam dolor facilis nobis nesciunt aperiam, reiciendis
+          ipsam deserunt, ex earum sequi, iste ducimus.
+        </p>
+      </div>
+    </section>
+
+    <section class="col-lg-4 col-md-6 col-sm-12">
+      <div>
+        <p class="second">Beef</p>
+        <p class="content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum explicabo
+          eligendi quia. Delectus, perferendis deleniti corporis voluptates
+          quisquam debitis blanditiis rerum atque tempora alias, labore quasi
+          non, temporibus esse laboriosam! Illo labore, autem vero fugit impedit
+          placeat optio dolores assumenda, tenetur iste exercitationem incidunt
+          atque. Id voluptatum maiores dignissimos aspernatur.
+        </p>
+      </div>
+    </section>
+
+    <section class="col-lg-4 col-md-12 col-sm-12">
+      <div>
+        <p class="third">Sushi</p>
+        <p class="content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          alias velit eligendi molestiae minima inventore doloribus delectus
+          beatae, voluptates temporibus a cupiditate fugiat sed hic consequatur
+          placeat provident ratione repellat rerum architecto. Nostrum, quis
+          odit libero quasi perspiciatis inventore. Ullam, repellat rerum odit
+          perferendis magnam deserunt odio recusandae doloribus rem natus
+          officiis, architecto eaque quidem dicta aspernatur. Harum consectetur
+          officia deleniti possimus provident quidem veritatis quo ea. Amet
+          necessitatibus, harum corrupti fuga velit dolore voluptate quibusdam
+          dolor aliquam mollitia quos. Sint commodi eligendi eius consectetur
+          ullam, iusto, distinctio harum molestias nisi laboriosam cupiditate
+          aut nemo provident veritatis corrupti tempora ipsum!
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
