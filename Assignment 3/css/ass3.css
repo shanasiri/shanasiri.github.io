@@ -1,0 +1,91 @@
+body {
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  color: #1a1a1a;
+  background-color: #2980b9;
+}
+#header-nav {
+  background-color: #f1c40f;
+  border-radius: 0;
+  border: 1px solid #000;
+}
+
+.navbar-brand h1 {
+  font-family: "Lora", serif;
+  color: #000;
+  font: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #f9e79f;
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 76px;
+  height: 76px;
+  padding-top: 20px;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 1px#F9E79F;
+}
+
+#nav-list {
+  background-color: #f1c40f;
+}
+
+#nav-list a {
+  font-weight: bold;
+  color: #282828;
+  font-size: 1.2em;
+}
+
+#nav-list a:hover {
+  color: #202020;
+  background-color: #fce29e;
+}
+
+#main-content {
+  width: 92%;
+  margin-bottom: 30px;
+}
+
+#main-content h2 {
+  font-size: 2.9em;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#main-content h3 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#chicken-tile,
+#beef-tile,
+#sushi-tile {
+  width: 100%;
+  padding: 20px;
+  background-color: #5dade2;
+  margin-bottom: 60px;
+  box-shadow: 0 0 80px #154360;
+}
